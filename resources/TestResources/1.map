@@ -1,0 +1,64 @@
+[Map]
+image=resources\ConquestMaps\Atlantis.bmp
+wrap=yes
+scroll=horizontal
+author=Sean O'Connor
+warn=yes
+
+[Continents]
+Barak Los=2
+Barba Moya=6
+Enevim=3
+Kala=6
+Neimaach=7
+Nova=5
+newContinent=1
+
+[Territories]
+Marakas,613,369,Barak Los,San Funander,Pierco,Tocko
+Pierco,620,292,Barak Los,Marakas,San Funander,Aqualia,Tocko
+San Funander,584,304,Barak Los,Marakas,Pierco
+Tocko,651,342,Barak Los,Marakas,Pierco,Blanki Vista
+
+Batan,82,422,Barba Moya,Bilon,Blanki Vista
+Bilon,134,421,Barba Moya,Mittenmoth,Har,Blanki Vista,Batan
+Blanki Vista,68,343,Barba Moya,Lo,Mittenmoth,Bilon,Kinsha,Batan,Tocko
+Esgarpok,186,344,Barba Moya,Farla,Mittenmoth,Har
+Farla,167,266,Barba Moya,Teor,Asturmina,Mittenmoth,Kinsha,Nurta,Unbecom,Esgarpok
+Har,190,410,Barba Moya,Mittenmoth,Bilon,Esgarpok,Friedartika
+Kinsha,115,254,Barba Moya,Lo,Farla,Mittenmoth,Spora,Blanki Vista,Unbecom
+Lo,59,252,Barba Moya,Kinsha,Blanki Vista
+Mittenmoth,136,349,Barba Moya,Farla,Bilon,Har,Kinsha,Blanki Vista,Esgarpok
+
+Evim,434,44,Enevim,Eritus,Evor,Valinor
+Evor,370,58,Enevim,Evim,Valinor,Lurd
+Lurd,315,47,Enevim,Ssag,Evor
+Valinor,389,26,Enevim,Evim,Evor
+
+Fali,217,113,Kala,Ssag,Jer,Unbecom
+Forgoth,74,137,Kala,Spora,Rove
+Jer,165,92,Kala,Ssag,Spora,Fali,Rove,Unbecom
+Rove,112,75,Kala,Forgoth,Polaris,Jer,Spora
+Spora,127,139,Kala,Forgoth,Jer,Rove,Kinsha,Unbecom
+Ssag,228,59,Kala,Jer,Fali,Lurd
+Unbecom,196,150,Kala,Lankia,Farla,Jer,Spora,Fali,Kinsha
+
+Asturmina,318,199,Neimaach,Lankia,Teor,Farla,Clokan
+Clokan,414,229,Neimaach,Asturmina,Kalthausen,Larkan
+Engel,346,316,Neimaach,Teor,Kalthausen,Kasten,Nurta
+Friedartika,271,422,Neimaach,Har,Kasten
+Horkan,465,343,Neimaach,Kalthausen,Unterkan
+Kalthausen,404,331,Neimaach,Horkan,Clokan,Kasten,Unterkan,Engel
+Kasten,305,370,Neimaach,Kalthausen,Unterkan,Nurta,Engel,Friedartika
+Lankia,346,155,Neimaach,Eritus,Asturmina,Unbecom
+Larkan,483,236,Neimaach,Clokan,Aqualia
+Nurta,276,300,Neimaach,Teor,Farla,Kasten,Engel
+Teor,289,252,Neimaach,Asturmina,Farla,Nurta,Engel
+Unterkan,406,385,Neimaach,Horkan,Kalthausen,Kasten
+
+Aqualia,570,203,Nova,Inve,Larkan,Pierco
+Arvi,547,89,Nova,Obar,Polaris,Inve
+Eritus,467,98,Nova,Lankia,Obar,Evim
+Inve,561,142,Nova,Obar,Arvi,Aqualia
+Obar,511,128,Nova,Eritus,Inve,Arvi
+Polaris,618,62,Nova,Rove,Arvi
